@@ -22,30 +22,25 @@ function isValidemail(email) {
   const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(String(email).toLowerCase());
 }
+
+// check 
+
+function checkRequired(inputArr) {
+    inputArr.forEach( function(input) {
+       if(input.value.trim() === '')      {
+           showError(input, ` ${getFiledName(input)}  is Required`)
+       } else{
+           showSuccess(input)
+       }
+    })
+}
+
+function getFiledName(input){
+    return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+}
 // addied event listner
 form.addEventListener("submit", function(e) {
   e.preventDefault();
 
-  if (username.value === "") {
-    showError(username, "Username is required");
-  } else {
-    showSuccess(username);
-  }
-  if (email.value === "") {
-    showError(email, "Email is required");
-  } else if (!isValidemail(email.value)) {
-    showError(email, "Email is not valid");
-  } else {
-    showSuccess(email);
-  }
-  if (password.value === "") {
-    showError(password, "password is required");
-  } else {
-    showSuccess(password);
-  }
-  if (password02.value === "") {
-    showError(password02, "password  is required");
-  } else {
-    showSuccess(password02);
-  }
+  checkRequired([ username, email , password , password02 ]);
 });
