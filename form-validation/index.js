@@ -65,7 +65,6 @@ function checkpasswordMatch(input1, input2) {
   }
   
 }
-
 // addied event listner
 form.addEventListener("submit", function(e) {
   e.preventDefault();
