@@ -94,3 +94,142 @@ body {
     font-weight: 200;
     line-height: 16px;
   }
+
+  /* food */
+
+  .food-card-text{
+      background-image: url("https://templatekit.tokomoo.com/restokit/wp-content/uploads/sites/4/2020/02/testbg-1.png");
+      background-color: #FFF6EA;
+      background-position: center;
+      background-size: cover;
+  }
+
+  .food-card-title{
+      line-height: 26px;
+      font-weight: 700;
+      font-size: 18px;
+      color: var(--black-color);
+      text-emphasis: none;
+  }
+  .food-card-price{
+      color: var(--primary-color);
+      font-weight: bold;
+      font-size: 1.4rem;
+
+  }
+
+.client-text{
+    background-color: #FFEEDB;
+    text-align: center;
+}
+.client-title{
+    font-size: 34px;
+    font-weight: 800;
+    color: var(--sec-color);
+    text-emphasis: none;
+}
+.client-quote{
+    color: rgba(41, 34, 119, 0.53);
+    font-size: 100px;
+    font-weight: 700;
+}
+.client-para-text{
+    font-size: 1.4rem;Eat Always Tasty
+
+    font-weight: 200;
+    color: var(--para-color);
+line-height: 40px;
+
+}
+.client-name{
+    margin: 1.5rem;
+    color: var(--black-color);
+    font-weight: bold;
+}
+.client-name-text{
+    color: var(--para-color);
+    margin-bottom: 1.5rem;
+}
+.food-dish{
+    padding: 7.6rem 0 0 0;
+    background-color: #FFF6EA;
+}
+.food-info-text{
+    vertical-align: center;
+}
+.food-about{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 60px;
+    color: var(--black-color);
+}
+.food-title{
+    color: var(--sec-color);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.food-para{
+margin-bottom: 2rem;
+}
+.new-food-text{
+    padding-top: 7.6rem;
+    background-color: #FFF6EA;
+
+}
+
+.menu{
+padding-top: 7.6rem;
+background-color: #FFF6EA;
+}
+.menu-title{
+    font-size: 24px;
+    color: var(--black-color);
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+}
+
+.food-text{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--para-color);
+}
+
+.counter-text{
+    background-image: url("https://templatekit.tokomoo.com/restokit/wp-content/uploads/sites/4/2020/03/backgroundnew2.png");
+    background-color: #FFEEDB;
+    background-position: center;
+    background-size: cover;
+}
+.counter-text{
+    padding-top: 7.6rem;
+    background-color: #FFEEDB;
+    padding-bottom: 7.6rem;
+}
+.counter{
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--black-color);
+   margin-left: 2rem;
+}
+.sub-new{
+    background-color: #FFF6EA;
+}
+.sub-new-text{
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--sec-color);
+    font-size: 30px;
+}
+.sub-new-para{
+    color: var(--sec-color);
+}
+.fill{
+    fill: #FFF9E9;
+}
+.footer{
+    background-color: #FFEEDB;
+}
