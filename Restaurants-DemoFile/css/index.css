@@ -1,0 +1,81 @@
+:root{
+    --primary-color: #F82B35;
+    --sec-color: #292277;
+    --para-color: #333333;
+    --black-color:#121212;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+.navbar-header .bg-color {
+    background-color: #FFF9E9;
+}
+.navbar-header li a{
+    color: var(--sec-color);
+    font-weight: 500;
+}
+.navbar-header li a:hover{
+border-bottom: 2px solid var(--primary-color);
+}
+.navbar-header li a.active{
+    border-bottom: 2px solid var(--primary-color);
+    }
+
+.navbar-header .dropdown-item{
+    color: #F82B35;
+    font-size: 14px;
+}
+.navbar-header .dropdown-item:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--primary-color);
+}
+
+/* header-page */
+
+.header-image{
+  background-image: url("https://templatekit.tokomoo.com/restokit/wp-content/uploads/sites/4/2020/02/hero_bgfix.png");
+    height: 100vh;
+    widows: 95vw;
+}
+
+.header-text{
+    margin: 5rem 0 0 0;
+     
+}
+.header-title-text{
+    color: var(--sec-color);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.header-para-text{
+    color: var(--para-color);
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 4rem;
+}
+
+.btn-color{
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+
+}
+.btn-color:hover{
+color: var(--primary-color);
+ background-color: #fff;
+ border: 2px solid var(--primary-color);
+ 
+}
