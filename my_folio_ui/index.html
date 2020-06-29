@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
     <link
       rel="stylesheet"
@@ -21,7 +21,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -70,6 +70,7 @@
             >
               Services
             </a>
+
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
@@ -82,10 +83,10 @@
       </div>
     </nav>
 
-    <section class="header-text">
+    <section class="header-text bg-color">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-5 col-lg-5 col-xl-5">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 main-header-text">
             <h1 class="header-title">
               Hello, <br />
               I Am Yogesh
@@ -93,58 +94,56 @@
             <p class="header-para">
               UI developer and Blogger Entrepreneur
             </p>
-            <ul class="header-li">
-              <li class="header-li-address">
-                <a href="#">
-                  <Address>
-                    <span class="header-email"> Home </span> some
-                  </Address></a
-                >
-              </li>
-              <li class="header-li-address">
-                <a href="#">
-                  <span class="header-email"> Email </span>
-                  <span class="header-email-text"> some@gmail.com </span>
-                </a>
-              </li>
-              <li class="header-li-address">
-                <a href="#">
-                  <span class="header-email"> </span>
-                  <span class="header-email"></span> 77777777
-                </a>
-              </li>
-            </ul>
+            <div class="li-header text-center">
+              <ul class="header-li text-left">
+                <li class="header-li-address">
+                  <span class="header-email main-text"> ADDRESS </span>
+                  <span class="header-email-text ml-5 "> Mumbai </span>
+                </li>
+                <li class="header-li-address ">
+                  <span class="header-email main-text"> Email </span>
+                  <span class="header-email-text ml-5 "> some@gmail.com </span>
+                </li>
+                <li class="header-li-address">
+                  <span class="header-email main-text"> phone </span>
+                  <span class="header-email-text ml-5 "> 7020238702 </span>
+                </li>
+              </ul>
+            </div>
             <div class="icon-social">
               <a href="#">
-                <i class="fa fa-linkedin-in"> </i>
+                <i class="fab fa-linkedin"> </i>
               </a>
               <a href="#">
                 <i class="fab fa-facebook"> </i>
               </a>
               <a href="#">
-                <i class="fa fa-github"> </i>
+                <i class="fab fa-github"> </i>
               </a>
               <a href="#">
-                <i class="fa fa-codepen"> </i>
+                <i class="fab fa-codepen"> </i>
               </a>
             </div>
 
-            <button class="btn btn-color">see my portfolio</button>
+            <button class="btn btn-color text-center ml-5 ">
+              See My Portfolio
+            </button>
           </div>
 
-          <div class="col-12 col-md-7 col-lg-7 col-xl-7">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6">
             <div class="image-background-profile">
               <img
                 src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/texture-2-min.png"
                 width="800"
                 height="650"
                 alt="background for profile"
+                class="img-fluid back-image"
               />
               <img
                 src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/sofia-min.png"
-                width="600"
-                height="800"
-                alt=""
+                width="400"
+                height="700"
+                alt="img-fluid image-profile "
               />
             </div>
           </div>
@@ -152,93 +151,356 @@
       </div>
     </section>
 
-    <section class="skill">
+    <section class="skill py-5">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h2 class="skill-text">Professional skills</h2>
-            <p class="skill-para">
+          <div class="col-12 text-center">
+            <h2 class="main-text  ">Professional skills</h2>
+            <p class="skill-para ">
               Senior Web Developer specializing in front end development.
               Experienced with all stages of the development cycle for dynamic
               web projects. Well-versed in numerous programming languages
               including JavaScript, SQL, and C. Stng background in project
               management and customer relations.
             </p>
-          </div>
-          <div class="col-12 main-progress">
+            <div class="col-7 offset-3 main-progress">
               <div class="row">
-    
-            <div class="col-12 col-md-5 col-lg-5">
-              <div class="progress ">
-                <div
-                  class="progress-bar w-75"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar w-75"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar w-75"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              
-            </div>
-            <div class="col-12 col-md-5 col-lg-5">
-              <div class="progress">
-                <div
-                  class="progress-bar w-75"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar w-75"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar w-75"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <div class="col-12 col-md-5 col-lg-5">
+                  <div class="progress ">
+                    <div
+                      class="progress-bar w-75"
+                      role="progressbar"
+                      aria-valuenow="65"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      Wordpress
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar w-75"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      HTML
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar w-75"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      CSS
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-5">
+                  <div class="progress">
+                    <div
+                      class="progress-bar w-75"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      JavaScript/Jquery
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar w-75"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      Django
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar w-75"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      React
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-      
+        </div>
       </div>
+    </section>
+    <section class="exp-demo py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="main-text">Projects</h2>
+            <p class="exp-para">
+              I am fortunate to work on many projects as working professional
+              and freelancer few of them are here
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+              <div class="card mb-3">
+                <img
+                  src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/59f87ffe-da1c-4564-b21b-50dd4f757fdd.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title main-text">Card Pokemon</h5>
+                  <p class="card-text ">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                    <span class="btn btn-color ml-auto"> Read Process </span>
+                  </p>
+
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <img
+                  src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/7c4379f7-9549-49a1-85f9-7e0ba8d2d683.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">To do Dask List App</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                    <span class="btn btn-color ml-auto"> Read Process </span>
+                  </p>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+              <div class="card mb-3">
+                <img
+                  src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/9f598ead-abc9-4f2c-8ede-58103a6fecf1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">To do Dask List App</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                    <span class="btn btn-color ml-auto"> Read Process </span>
+                  </p>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <img
+                  src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/5d1203df-7eb9-4fce-ac0e-7e048392423d.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">To do Dask List App</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                    <span class="btn btn-color ml-auto"> Read Process </span>
+                  </p>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <section class="code-counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 col-lg-3 text-center ">
+            <span class="counter text-center "> 200k </span>
+            <p class="code-text">Lines of code</p>
+          </div>
 
+          <div class="col-12 col-md-3 col-lg-3 text-center">
+            <span class="counter text-center "> 43 </span>
+            <p class="code-text">Projects Created</p>
+          </div>
 
-   
+          <div class="col-12 col-md-3 col-lg-3 text-center">
+            <span class="counter  "> 744 </span>
+            <p class="code-text">Cup of Cofee</p>
+          </div>
 
+          <div class="col-12 col-md-3 col-lg-3 text-center">
+            <p class="counter text-center ">2.5</p>
+            <p class="code-text">Years of experience</p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section class="whatisnow">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="card-text">What I Do ?</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              molestias pariatur iure nihil voluptates illo non dolor
+              temporibus, aperiam sint corrupti debitis alias voluptate
+              reprehenderit natus deleniti consequatur. Blanditiis, dolorem!
+            </p>
+          </div>
+
+          <div class="col-12  col-md-4 col-lg-4  ">
+            <div class="box-1">
+              <i class="fa fa-earlybirds"></i>
+              <h5 class="main-text">UI Design</h5>
+              <p class="card-text">
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat consequuntur sapiente quod quis voluptate atque, natus tenetur aliquid cupiditate omnis, sed possimus? A nulla facere aperiam corrupti labore tempora?
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4   ">
+            <div class="box-1">
+              <i class="fa fa-earlybirds"></i>
+              <h5 class="main-text">React Application 
+                </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                dignissimos, neque at quae sit esse quibusdam et qui officiis
+                natus aliquid maxime, fuga dolores delectus error doloribus
+                similique voluptas rerum!
+              </p>
+          
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4   ">
+            <div class="box-1">
+              <i class="fa fa-earlybirds"></i>
+
+            
+              <h5 class="main-text">PSD TO HTML </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                dignissimos, neque at quae sit esse quibusdam et qui officiis
+                natus aliquid maxime, fuga dolores delectus error doloribus
+                similique voluptas rerum!
+              </p>
+            </div>
+          </div>
+          <div class="col-12  col-md-4 col-lg-4  ">
+            <div class="box-1">
+              <i class="fa fa-earlybirds"></i>
+          
+              <h5 class="main-text">Resposive Support
+                </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                dignissimos, neque at quae sit esse quibusdam et qui officiis
+                natus aliquid maxime, fuga dolores delectus error doloribus
+                similique voluptas rerum!
+              </p>
+            </div>
+          </div>
+          <div class="col-12  col-md-4 col-lg-4   ">
+            <div class="box-1">
+              <i class="fa fa-earlybirds"></i>
+         
+              <h5 class="main-text">Wordpress Site and Hosting </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                dignissimos, neque at quae sit esse quibusdam et qui officiis
+                natus aliquid maxime, fuga dolores delectus error doloribus
+                similique voluptas rerum!
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4  ">
+            <div class="box-1">
+              <i class="fa fa-earlybirds"></i>
+          
+              <h5 class="main-text">Ask Me Anything Section </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                dignissimos, neque at quae sit esse quibusdam et qui officiis
+                natus aliquid maxime, fuga dolores delectus error doloribus
+                similique voluptas rerum!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<hr>
+<section class=" button-text py-"> 
+
+  <div class="container">
+
+    <div class="col-12 ">
+
+
+      <p class="main-text h1">
+        Contact Me 
+      </p>
+
+      
+      <div class="li-header text-center">
+          <ul class="header-li text-left">
+            <li class="header-li-address">
+              <span class="header-email main-text"> ADDRESS </span>
+              <span class="header-email-text ml-5 "> Mumbai </span>
+            </li>
+            <li class="header-li-address ">
+              <span class="header-email main-text"> Email </span>
+              <span class="header-email-text ml-5 "> some@gmail.com </span>
+            </li>
+            <li class="header-li-address">
+              <span class="header-email main-text"> phone </span>
+              <span class="header-email-text ml-5 "> 7020238702 </span>
+            </li>
+          </ul>
+        </div>
+      
+        <div class="icon-social  ">
+            <a href="#">
+              <i class="fab fa-linkedin"> </i>
+            </a>
+            <a href="#">
+              <i class="fab fa-facebook"> </i>
+            </a>
+            <a href="#">
+              <i class="fab fa-github"> </i>
+            </a>
+            <a href="#">
+              <i class="fab fa-codepen"> </i>
+            </a>
+          </div>
+    
+        </div>
+  </div>
+</section>
+
+
+
     <!-- JS, Popper.js, and jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

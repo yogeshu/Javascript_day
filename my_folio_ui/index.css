@@ -1,1 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+:root{
+    --primary-color : #F2F5FE;
+    --sec-color: #575755;
+    --main-color: #202020;
+    --btn-color: #4667FA;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Nunito',sans-serif;
+    font-size: 16px;
+    color: #202020;
+    background-color:var(--primary-color);
+    overflow-x: hidden;
+}
+/* common styling attritbutes so we can use same class  */
+.main-text{
+    color: var(--main-color);
+}
+.main-para-text{
+    color: var(--sec-color);
+}
+.btn-color{
+    color: #fff;
+background-color: var(--btn-color);
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+/* nav bar setup color and all */
+
+.navbar ul li a.nav-link {
+    color: var(--sec-color); 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 12px 12px;
+}
+.navbar ul li a.nav-link:hover{
+    color: var(--btn-color);
+}
+.navbar .bg-color{
+    background-color: #f2f5fe;   
+}
+
+
+
+/* header styling  */
+.main-header-text{
+    margin-top: 10rem;
+}
+.header-title{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.header-para{
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: var(--sec-color);
+}
+.header-li{
+    margin-top: 2rem;
+}
+.header-li-address{
+    margin-top: 1rem;
+    text-align: left;
+}
+.header-email{
+    font-size: 14px;
+    font-weight: 800;
+}
+.header-email-text{
+    color: var(--sec-color);
+}
+.icon-social{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px 15px;
+    
+}
+.icon-social a i {
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    padding: 5px 5px;
+    margin: 5px;
+    color: var(--main-color);
+}
+.profile-background-image{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+ .back-image{
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    z-index: -1;
+}
+
+.profile-image{
+    position: absolute;
+    top: 1rem;
+    margin-left: 2rem;
+
+}
+
+
+/* skilss */
+
+.skill-para{
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: lowercase;
+    color: var(--sec-color);
+}
+.main-progress{
+    background-color: var(--btn-color);
+    padding-bottom: 25px;
+}
+.main-progress .progress{
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+.main-progress .progress-bar{
+    font-size: 0.5rem;
+    background-color: #fff;
+    color: var(--main-color);
+    
+}
+
+
+/* card project */
+
+.card-text{
+    color: var(--sec-color);
+}
+
+
+/* counter */
+
+.counter{
+    font-size: 42px;
+    color: var(--btn-color);
+}
+
+.button-text{
+    margin: 2rem;
+}
