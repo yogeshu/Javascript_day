@@ -71,8 +71,7 @@ function sortByRich() {
 }
 
 // the fncton for sort the money 
-// add user on click
-
+// add user on c
 
 
 
