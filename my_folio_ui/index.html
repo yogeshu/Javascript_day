@@ -15,12 +15,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css "
+    />
+
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -52,42 +58,48 @@
         >
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+              >Home</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skill">Skills</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#freelance" id="navbarDropdown">
               Services
             </a>
-
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="#">Experience</a>
           </li>
+
+          <button class="btn btn-color">
+            <a
+              class="nav-item text-black-50"
+              href="mailto:yogeshbhavsar@gmail.com"
+            >
+              Contact Me
+            </a>
+          </button>
         </ul>
       </div>
     </nav>
 
-    <section class="header-text bg-color">
-      <div class="container">
+    <section
+      class="header-text bg-color "
+      data-aos="fade-right"
+      data-aos-duration="2000"
+    >
+      <div class="container ">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6 col-xl-6 main-header-text">
-            <h1 class="header-title">
+            <h1 class="header-title animate__animated animate__bounce">
               Hello, <br />
               I Am Yogesh
             </h1>
@@ -111,22 +123,22 @@
               </ul>
             </div>
             <div class="icon-social">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/yogeshdevabhayini/" target="_blank">
                 <i class="fab fa-linkedin"> </i>
               </a>
               <a href="#">
                 <i class="fab fa-facebook"> </i>
               </a>
-              <a href="#">
+              <a href="http://github.com/yogeshu" target="_blank">
                 <i class="fab fa-github"> </i>
               </a>
-              <a href="#">
+              <a href="https://codepen.io/YOgesh31" target="_blank">
                 <i class="fab fa-codepen"> </i>
               </a>
             </div>
 
-            <button class="btn btn-color text-center ml-5 ">
-              See My Portfolio
+            <button class="btn btn-color text-center ml-5 " >
+           <a href="#projects" class="main-text">  See My Portfolio </a>
             </button>
           </div>
 
@@ -135,15 +147,15 @@
               <img
                 src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/texture-2-min.png"
                 width="800"
-                height="650"
+                height="650" 
                 alt="background for profile"
                 class="img-fluid back-image"
               />
               <img
-                src="https://kits.pixel-show.com/careerster/wp-content/uploads/sites/4/2020/03/sofia-min.png"
-                width="400"
-                height="700"
+                src="./assets/IMG_1976-removebg-preview-removebg-preview.png"
                 alt="img-fluid image-profile "
+                width="400"
+                height="520"
               />
             </div>
           </div>
@@ -151,8 +163,14 @@
       </div>
     </section>
 
-    <section class="skill py-5">
-      <div class="container">
+    <section
+      class="skill "
+      id="skill"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
+      <div class="container ">
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="main-text  ">Professional skills</h2>
@@ -170,7 +188,7 @@
                     <div
                       class="progress-bar w-75"
                       role="progressbar"
-                      aria-valuenow="65"
+                      aria-valuenow="75"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     >
@@ -179,9 +197,9 @@
                   </div>
                   <div class="progress">
                     <div
-                      class="progress-bar w-75"
+                      class="progress-bar w-100"
                       role="progressbar"
-                      aria-valuenow="75"
+                      aria-valuenow="100"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     >
@@ -190,9 +208,9 @@
                   </div>
                   <div class="progress">
                     <div
-                      class="progress-bar w-75"
+                      class="progress-bar w-100"
                       role="progressbar"
-                      aria-valuenow="75"
+                      aria-valuenow="100"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     >
@@ -203,9 +221,9 @@
                 <div class="col-12 col-md-5 col-lg-5">
                   <div class="progress">
                     <div
-                      class="progress-bar w-75"
+                      class="progress-bar w-100"
                       role="progressbar"
-                      aria-valuenow="75"
+                      aria-valuenow="100"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     >
@@ -214,13 +232,13 @@
                   </div>
                   <div class="progress">
                     <div
-                      class="progress-bar w-75"
+                      class="progress-bar w-100"
                       role="progressbar"
                       aria-valuenow="75"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     >
-                      Django
+                      Bootstrap
                     </div>
                   </div>
                   <div class="progress">
@@ -241,7 +259,12 @@
         </div>
       </div>
     </section>
-    <section class="exp-demo py-5">
+    <section
+      class="exp-demo"
+      id="projects"
+      data-aos="zoom-in-down"
+      data-aos-duration="1500"
+    >
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
@@ -265,7 +288,9 @@
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
-                    <span class="btn btn-color ml-auto"> Read Process </span>
+                    <a href="" target="_blank">
+                      <span class="btn btn-color ml-auto"> Read Process </span>
+                    </a>
                   </p>
 
                   <p class="card-text"></p>
@@ -330,11 +355,12 @@
       </div>
     </section>
 
-    <section class="code-counter">
+    <section class="code-counter" data-aos-duration="500">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-3 col-lg-3 text-center ">
-            <span class="counter text-center "> 200k </span>
+            <span class="counter text-center "> 200 </span>
+            <span class="counterK text-center">k</span>
             <p class="code-text">Lines of code</p>
           </div>
 
@@ -356,7 +382,7 @@
       </div>
     </section>
 
-    <section class="whatisnow">
+    <section class="whatisnow" id="freelance">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
@@ -371,78 +397,71 @@
 
           <div class="col-12  col-md-4 col-lg-4  ">
             <div class="box-1">
-              <i class="fa fa-earlybirds"></i>
+              <i class="fab fa-html5 fa-2x mb-2"></i>
               <h5 class="main-text">UI Design</h5>
               <p class="card-text">
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat consequuntur sapiente quod quis voluptate atque, natus tenetur aliquid cupiditate omnis, sed possimus? A nulla facere aperiam corrupti labore tempora?
+                My apporach for building webiste is to make it simple but
+                lookwise it is premium this can be done when you have experience
+                and magic formula of typography and color schema that is my key
+                strength
               </p>
             </div>
           </div>
           <div class="col-12 col-md-4 col-lg-4   ">
             <div class="box-1">
-              <i class="fa fa-earlybirds"></i>
-              <h5 class="main-text">React Application 
-                </h5>
+              <i class="fab fa-react fa-2x"></i>
+              <h5 class="main-text">React Application</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                dignissimos, neque at quae sit esse quibusdam et qui officiis
-                natus aliquid maxime, fuga dolores delectus error doloribus
-                similique voluptas rerum!
+                Any React Application can be done by me front end support with
+                data (lorem)
               </p>
-          
             </div>
           </div>
           <div class="col-12 col-md-4 col-lg-4   ">
             <div class="box-1">
-              <i class="fa fa-earlybirds"></i>
-
-            
-              <h5 class="main-text">PSD TO HTML </h5>
+              <i class="fab fa-adobe fa-2x mb-2"></i>
+              <h5 class="main-text">PSD TO HTML</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                dignissimos, neque at quae sit esse quibusdam et qui officiis
-                natus aliquid maxime, fuga dolores delectus error doloribus
-                similique voluptas rerum!
+                I will take your website desing and pour it down in code version
+                with best quality code which is easy to maintain and follow
+                rules and standards by w3c
               </p>
             </div>
           </div>
           <div class="col-12  col-md-4 col-lg-4  ">
             <div class="box-1">
-              <i class="fa fa-earlybirds"></i>
-          
-              <h5 class="main-text">Resposive Support
-                </h5>
+              <i class="fa fa-laptop-code fa-2x mb-2"></i>
+
+              <h5 class="main-text">Resposive Support</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                dignissimos, neque at quae sit esse quibusdam et qui officiis
-                natus aliquid maxime, fuga dolores delectus error doloribus
-                similique voluptas rerum!
+                The mordern web developement - We need website for that work on
+                many of the screen devices so we can be sure that our website is
+                accessbile to wide audience
               </p>
             </div>
           </div>
           <div class="col-12  col-md-4 col-lg-4   ">
             <div class="box-1">
-              <i class="fa fa-earlybirds"></i>
-         
-              <h5 class="main-text">Wordpress Site and Hosting </h5>
+              <i class="fab fa-wordpress fa-2x mb-2"></i>
+
+              <h5 class="main-text">Wordpress Site and Hosting</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                dignissimos, neque at quae sit esse quibusdam et qui officiis
-                natus aliquid maxime, fuga dolores delectus error doloribus
-                similique voluptas rerum!
+                Wordpress is leading CMS and easy to custom with no worry about
+                being late in perfomance, I can give you many option to look
+                into when you about your design
               </p>
             </div>
           </div>
           <div class="col-12 col-md-4 col-lg-4  ">
             <div class="box-1">
-              <i class="fa fa-earlybirds"></i>
-          
-              <h5 class="main-text">Ask Me Anything Section </h5>
+              <i class="fa fa-search fa-2x mb-2"></i>
+
+              <h5 class="main-text">Ask Me Anything</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                dignissimos, neque at quae sit esse quibusdam et qui officiis
-                natus aliquid maxime, fuga dolores delectus error doloribus
-                similique voluptas rerum!
+                I will support your webisite period of time you need, it will be
+                hosted by me and maintained by me or you can ask any custom
+                webiste / application to be developed with quality of code my
+                message box is waiting for you
               </p>
             </div>
           </div>
@@ -450,56 +469,47 @@
       </div>
     </section>
 
-<hr>
-<section class=" button-text py-"> 
+    <hr />
+    <section class=" button-text ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12  col-md-6 col-lg-6">
+            <p class="main-text h1">
+              Connect With Me
+            </p>
 
-  <div class="container">
-
-    <div class="col-12 ">
-
-
-      <p class="main-text h1">
-        Contact Me 
-      </p>
-
-      
-      <div class="li-header text-center">
-          <ul class="header-li text-left">
-            <li class="header-li-address">
-              <span class="header-email main-text"> ADDRESS </span>
-              <span class="header-email-text ml-5 "> Mumbai </span>
-            </li>
-            <li class="header-li-address ">
-              <span class="header-email main-text"> Email </span>
-              <span class="header-email-text ml-5 "> some@gmail.com </span>
-            </li>
-            <li class="header-li-address">
-              <span class="header-email main-text"> phone </span>
-              <span class="header-email-text ml-5 "> 7020238702 </span>
-            </li>
-          </ul>
-        </div>
-      
-        <div class="icon-social  ">
-            <a href="#">
-              <i class="fab fa-linkedin"> </i>
-            </a>
-            <a href="#">
-              <i class="fab fa-facebook"> </i>
-            </a>
-            <a href="#">
-              <i class="fab fa-github"> </i>
-            </a>
-            <a href="#">
-              <i class="fab fa-codepen"> </i>
-            </a>
+            <div class="icon-social  ">
+              <a href="https://www.linkedin.com/in/yogeshdevabhayini/" target="_blank">
+                <i class="fab fa-linkedin"> </i>
+              </a>
+              <a href="#">
+                <i class="fab fa-facebook"> </i>
+              </a>
+              <a href="http://github.com/yogeshu" target="_blank">
+                <i class="fab fa-github"> </i>
+              </a>
+              <a href="https://codepen.io/YOgesh31" target="_blank">
+                <i class="fab fa-codepen"> </i>
+              </a>
+            </div>
           </div>
-    
+          <div class="col-12 col-md-6 col-lg-6 ">
+           
+          <a
+              class="bmc-button"
+              target="_blank"
+              href="https://www.buymeacoffee.com/yogeshui"
+              ><img
+                src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+                alt="Buy me a coffee"
+              /><span style="margin-left:5px;font-size:28px !important;"
+                >Buy me a coffee</span
+              ></a
+            >
+          </div>
         </div>
-  </div>
-</section>
-
-
+      </div>
+    </section>
 
     <!-- JS, Popper.js, and jQuery -->
     <script
@@ -507,6 +517,7 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -517,7 +528,17 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
 
-    <script src="" async defer></script>
+    <script src="index.js" async defer></script>
+    <script>
+      AOS.init();
+      $(".counter").counterUp({
+        delay: 10,
+        time: 1000
+      });
+    </script>
   </body>
 </html>

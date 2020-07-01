@@ -35,6 +35,13 @@ li {
     text-decoration: none;
     list-style-type: none;
 }
+
+a:hover{
+    text-decoration: none;
+}
+i:hover{
+    background-color: cadetblue;
+}
 /* nav bar setup color and all */
 
 .navbar ul li a.nav-link {
@@ -56,6 +63,7 @@ li {
 /* header styling  */
 .main-header-text{
     margin-top: 10rem;
+
 }
 .header-title{
     font-size: 70px;
@@ -113,12 +121,15 @@ li {
     position: absolute;
     top: 1rem;
     margin-left: 2rem;
+    margin-top: 5rem;
 
 }
 
 
 /* skilss */
-
+.skill{
+    margin-top: 2.5rem;
+}
 .skill-para{
     padding: 12px;
     font-size: 14px;
@@ -141,18 +152,31 @@ li {
     color: var(--main-color);
     
 }
-
+/*  */
+.exp-demo{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 
 /* card project */
 
 .card-text{
     color: var(--sec-color);
-}
 
+}
+.box-1{
+    transition: background-color ;
+    
+}
+.box-1:hover{
+background-color:var(--primary-color);
+box-shadow: 2px 12px 12px 1px var(--sec-color);
+
+}
 
 /* counter */
 
-.counter{
+.counter,  .counterK {
     font-size: 42px;
     color: var(--btn-color);
 }
@@ -160,3 +184,54 @@ li {
 .button-text{
     margin: 2rem;
 }
+
+.box-1 {
+    height: 350px;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 46px;
+background: #c2dfdf;
+
+}
+
+.bmc-button img {
+    height: 34px !important;
+    width: 35px !important;
+    margin-bottom: 1px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+  }
+  .bmc-button {
+    padding: 7px 15px 7px 10px !important;
+    line-height: 35px !important;
+    height: 51px !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    color: #ffffff !important;
+    background-color: #5f7fff !important;
+    border-radius: 5px !important;
+    border: 1px solid transparent !important;
+    padding: 7px 15px 7px 10px !important;
+    font-size: 28px !important;
+    letter-spacing: 0.6px !important;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    margin: 0 auto !important;
+    font-family: "Cookie", cursive !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+  }
+  .bmc-button:hover,
+  .bmc-button:active,
+  .bmc-button:focus {
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    text-decoration: none !important;
+    box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    opacity: 0.85 !important;
+    color: #ffffff !important;
+  }
+
+
+  .card-
